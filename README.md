@@ -1,3 +1,23 @@
+## Đặt tên biến cho file ENVIRONMENT (.env)
+
+```
+PORT=8081
+GIN_MODE="debug"
+
+URL_MEMBERSHIP="#####"
+URL_SERVICE_LOGIN="#####"
+#URL = "*" # This for test any URL can call to API
+
+# Redis Database 
+REDIS_ADDRESS="#####"
+REDIS_USERNAME= "#####"
+REDIS_PASSWORD="#####"
+
+# Mysql Database
+MYSQL_DSN_USER_MANAGER="#####"
+
+```
+
 ## Format chung cho Payload trả ra 
 
 ```
